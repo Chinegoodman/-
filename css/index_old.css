@@ -1,0 +1,269 @@
+html{
+    font-size: 100px;
+}
+#top{
+    width:100%;
+    height:0.6rem;
+    background-color: #121212;
+}
+#top_content{
+    width:12.8rem;
+    margin:0 auto;
+    height:100%;
+    position: relative;
+    overflow: hidden;
+}
+#top_logo{
+    position: absolute;
+    left:0;
+    top:0;
+}
+/*#top_logo img{
+    width:;
+    height:;
+}*/
+#top_navs{
+    position: absolute;
+    right:0;
+    top:0;
+    height:0.37rem;
+    padding-top: 0.23rem;
+    overflow: hidden;
+}
+#top_navs li{
+    width:0.64rem;
+    height:0.3rem;
+    text-align: center;
+    vertical-align: top;
+    float: left;
+    margin-left: 0.5rem;
+}
+#top_navs li a{
+    color: rgba(255,255,255,0.85);
+    font-size: 0.16rem;
+}
+#top_navs li:hover{
+    color: #000;
+    border-bottom:0.02rem solid #CD1C12;
+}
+#top_navs li:hover a{
+    color: #CD1C12;
+}
+#top_navs li:nth-child(1){
+    width:0.32rem;
+    margin-left: 0;
+}
+/*顶部样式结束*/
+
+
+/*底部样式开始*/
+#bottom{
+    width:100%;
+    height:3.16rem;
+    background-color: #121212;
+    padding-top: 0.54rem;
+}
+#bottom_content{
+    width:12.8rem;
+    height:1.8rem;
+/*    margin:0 auto 0.81rem;*/
+    margin:0 auto;
+    color: rgba(255,255,255,0.85);
+    overflow: hidden;
+    position: relative;
+}
+#bottom_tmgz{
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+#bottom_tmgz_logo{
+    width:1.54rem;
+    height:0.3rem;
+}
+#bottom_tmgz_abouts{
+    margin-top: 0.47rem;
+    overflow: hidden;
+}
+#bottom_tmgz_abouts li{
+    float: left;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    border-right: 0.02rem solid rgba(255,255,255,0.75);
+}
+#bottom_tmgz_abouts li:last-child{
+    border-right: none;
+}
+#bottom_tmgz_abouts li:first-child{
+    padding-left: 0;
+}
+#bottom_tmgz_abouts li a{
+    color: rgba(255,255,255,0.85);
+    font-size: 0.18rem;
+    line-height: 0.25rem;
+}
+
+#connect_us{
+    position: absolute;
+    right:0;
+    top:0;
+    overflow: hidden;
+}
+.bottom_xlwb,.bottom_wx{
+    float: left;
+    color: rgba(255,255,255,0.85);
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    text-align: center;
+    width:0.8rem;
+    height:1.04rem;
+}
+.bottom_xlwb img,.bottom_wx img{
+    width:0.8rem;
+    height:0.8rem;
+}
+.bottom_xlwb span,.bottom_wx span{
+    width:0.7rem;
+    height:0.2rem;
+    margin:0 auto;
+}
+.bottom_wx{
+    margin-left: 0.5rem;
+}
+#bottom_others{
+    width:12.8rem;
+    margin:0 auto;
+    padding-top: 0.22rem;
+    color: rgba(255,255,255,0.85);
+    overflow: hidden;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+#bottom_others span{
+    display: inline-block;
+}
+#bottom_others span:nth-child(1){
+    margin-right: 0.6rem;
+}
+/*底部样式结束*/
+
+/*公共样式结束*/
+/*///////////////////////////*/
+
+/*内容部分样式开始*/
+/*#content{
+    width:12.8rem;
+    margin:0 auto;
+}*/
+
+.content_top{
+    width:100%;
+    height:3.61rem;
+    background: rgba(0,0,0,0.3) url("../images/");
+    background-size: 100% 100%;
+    padding-top: 1.99rem;
+    margin-bottom: 1.2rem;
+}
+.content_top p{
+    text-align: center;
+    color: #fff;
+    height:0.8rem;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    margin-bottom: 0.36rem;
+}
+
+.content_lis{
+    width:12.8rem;
+    margin:0 auto;
+}
+.content_lis li{
+    margin-bottom: 1.1rem;
+    overflow: hidden;
+}
+.content_lis li:last-child{
+    margin-bottom: 1.4rem;
+}
+.content_li_title{
+    width:100%;
+    height:0.5rem;
+    padding-bottom: 0.16rem;
+    border-bottom: 1px solid #AAAAAA;
+    margin-bottom: 0.43rem;
+    overflow: hidden;
+}
+.content_li_title>span{
+    font-size: 0.36rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    color: #4A4A4A;
+}
+.content_li_title>a{
+    float: right;
+    display: block;
+    height:0.5rem;
+    overflow: hidden;
+}
+.content_li_title>a span{
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+.content_li_title>a img{
+    line-height: 0.5rem;
+    width:0.13rem;
+    height:0.22rem;
+    margin-left: 0.2rem;
+}
+.content_li_pics,.content_li_pics2{
+    /*此处是为了缩放时不会收到超出的影响。*/
+    width:110%;
+    height:5.6rem;
+    overflow: hidden;
+}
+.content_li_pics a,.content_li_pics2 a{
+    float: left;
+}
+.content_li_pics a:nth-child(1) img{
+    width:8.84rem;
+    height:5.6rem;
+    margin-right: 0.06rem;
+}
+.content_li_pics a:nth-child(2) img{
+    width:3.9rem;
+    height:2.77rem;
+    margin-bottom: 0.06rem;
+}
+.content_li_pics a:nth-child(3) img{
+    width:3.9rem;
+    height:2.77rem;
+}
+
+.content_li_pics2 a:nth-child(1) img{
+    width:4.0rem;
+    height:5.6rem;
+    margin-right: 0.06rem;
+}
+.content_li_pics2 a:nth-child(2) img{
+    width:3.0rem;
+    height:2.77rem;
+    margin-bottom: 0.06rem;
+    margin-right: 0.06rem;
+}
+.content_li_pics2 a:nth-child(3) img{
+    width:5.68rem;
+    height:2.77rem;
+    margin-bottom: 0.06rem;
+}
+.content_li_pics2 a:nth-child(4) img{
+    width:3.0rem;
+    height:2.77rem;
+    margin-right: 0.06rem;
+}
+.content_li_pics2 a:nth-child(5) img{
+    width:5.68rem;
+    height:2.77rem;
+}
+/*内容部分样式结束*/
+
+

@@ -1,0 +1,22 @@
+.content_others{
+     margin-top: 1.19rem;
+ }
+#top_navs li:nth-child(2){
+    border-bottom:none;
+}
+#top_navs li:nth-child(2) a{
+    color: rgba(255,255,255,0.85);
+}
+#top_navs li:nth-child(4){
+    border-bottom:2px solid #CD1C12;
+}
+#top_navs li:nth-child(4) a{
+    color: #CD1C12;
+}
+#top_navs li:hover{
+    color: #000;
+    border-bottom:2px solid #CD1C12;
+}
+#top_navs li:hover a{
+    color: #CD1C12;
+}

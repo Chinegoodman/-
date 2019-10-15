@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>透明工场下载</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <link rel="shortcut icon" href="../images/logo_top.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" media="all and (min-width:750px)" href="../css/index_APP_download.css">
+    <link rel="stylesheet" type="text/css" media="all and (min-width:750px)" href="../css/download_page.css">
+    <link rel="stylesheet" type="text/css" media="all and (max-width:750px)" href="../css/index_APP_download_not_PC.css">
+    <link rel="stylesheet" type="text/css" media="all and (max-width:750px)" href="../css/download_page_not_PC.css">
+    <script src="../js/jq.js"></script>
+    <script>
+        /*非移动端*/
+        if (document.documentElement.clientWidth>=750){
+            window.onready=function () {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 19.2  < 50/3 ? 50/3 : document.documentElement.clientWidth / 19.2 + 'px';
+            }
+            /*document.documentElement.style.fontSize = document.documentElement.clientWidth / 19.2  < 50/3 ? 50/3 : document.documentElement.clientWidth / 19.2 + 'px';*/
+            window.onresize = function(){
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 19.2  < 50/3 ? 50/3 : document.documentElement.clientWidth / 19.2 + 'px';
+            }
+        }else/* 750一下的移动端*/
+        {
+            window.onready=function () {
+                $('a.bottom_xlwb>span').html('微博');
+                $('.bottom_wx>span').html('微信');
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5  < 128/3 ? 128/3 : document.documentElement.clientWidth / 7.5 + 'px';
+            }
+            /*document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5  < 128/3 ? 128/3 : document.documentElement.clientWidth / 7.5 + 'px';*/
+            window.onresize = function(){
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5  < 128/3 ? 128/3 : document.documentElement.clientWidth / 7.5 + 'px';
+            }
+        }
+
+        /*对浏览器窗口监听，设置基本字号*/
+        /*document.documentElement.style.fontSize = document.documentElement.clientWidth / 19.2  < 50/3 ? 50/3 : document.documentElement.clientWidth / 19.2 + 'px';
+         window.onresize = function(){
+         document.documentElement.style.fontSize = document.documentElement.clientWidth / 19.2  < 50/3 ? 50/3 : document.documentElement.clientWidth / 19.2 + 'px';
+         }*/
+
+
+        /*6.4是根据设计稿640px/100的来的，
+         实时当前屏幕除以6.4后，
+         全局元素尺寸就按1rem就等于100px来设计
+         实时当前屏幕除以6.4后 < 50 表示是最小屏幕320px
+         */
+        /*PC端这里用的是1920宽的设计稿 1920/100=19.2 移动端用的是750的设计稿*/
+        /*console.log(document.documentElement.style.fontSize);*/
+    </script>
+</head>
+<body>
+<div id="top">
+    <div id="top_content">
+        <div id="top_logo">
+            <img src="../images/logo.png" alt="logo">
+            <img class="logo_tmgc" src="../images/logo_tmgc.png" alt="透明工场">
+        </div>
+        <ul id="top_navs">
+            <li><a href="../index.html">首页<img src="../images/Disclosure Indicator Copy + 评论 + 分享.png" alt=""></a></li>
+            <li><a href="APP_download.html">透明工场<img src="../images/Disclosure Indicator Copy + 评论 + 分享.png" alt=""></a></li>
+            <li><a href="partner_about.html">合作伙伴<img src="../images/Disclosure Indicator Copy + 评论 + 分享.png" alt=""></a></li>
+            <li><a href="download_page.html">APP下载<img src="../images/Disclosure Indicator Copy + 评论 + 分享.png" alt=""></a></li>
+            <li><a href="about_us.html">关于我们<img src="../images/Disclosure Indicator Copy + 评论 + 分享.png" alt=""></a></li>
+        </ul>
+        <div id="top_menu">
+            <img src="../images/000000.png" alt="menu">
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="content_top">
+        <img class="transparentpg_topbg" src="../images/Group 5.png" alt="最真实的制造过程">
+    </div>
+    <div class="content_others">
+        <img class="APP_down" src="../images/Android_IOS_download.png" alt="透明工场">
+        <div class="transparent_download">
+            <div class="ios_down">
+                <!--<img src="../images/IOS_download.png" alt="透明工场">-->
+                <div>
+                    <!--<img src="../images/苹果.png" alt="苹果"><span>iOS端下载</span>-->
+                </div>
+            </div>
+            <div class="anzhuo_down">
+                <!--<img src="../images/安卓下载.png" alt="透明工场">-->
+                <div>
+                    <!--<img src="../images/安卓.png" alt="安卓"><span>安卓端下载</span>-->
+                </div>
+            </div>
+        </div>
+        <div id="transparent_show">
+            <p>透明工场</p>
+            <span>“透明”是一种最原始的氧化剂，它呈现出最真实的生产制造过程，实现用户由产品使用者到产品设计者与生产监督者的角色变化。可视化的参与过程，让用户更加深刻的认识、了解和信任企业，使品牌更加透明化。</span>
+            <div class="transparent_show_morewords">
+                <span>我们旨在做好一件“透明的新装”，而非“皇帝的新衣”：在用户眼前还原、美化、呈现出最精准的企业形象，带领用户揭秘生活中，衣、食、住、行最初的本质；可视化的加工过程，体验“从无到有”的新鲜事物，为用户带来前所未有的刺激，满足始终存在的好奇心。</span>
+                <span>透明工场是将产品的生产过程完全透明化的呈现在消费者面前，从而让消费更加安心，提升消费品质的资讯类APP。</span>
+                <span>在当今时代下，科技创新倒逼产业升级，经济发展呼唤企业转型，社会潮流要求重构信任基石。在这样的科技、社会、经济三重压力之下，中国企业面临一个同样的困境：必须在互联网时代进行品牌、产品、营销和服务的升级。</span>
+                <span>于是，透明工场应时而生。透明工场，用一种有情怀有温度的方式，将企业想要表达给消费者的内容娓娓道来，让更多的人看到我国自有品牌的精神，让文化得以重视及传承。</span>
+            </div>
+            <div class="transparent_show_more"></div>
+            <!--<ul>
+                <li><a href=""><img src="../images/Group 15.png" alt="全聚德透明工场"></a></li>
+                <li><a href=""><img src="../images/Group 16.png" alt="山里寒舍"></a></li>
+            </ul>-->
+            <div class="transparent_xgjg">
+                <p>相关机构</p>
+                <ul class="transparent_xgjg_lis">
+                    <li><a href=""><img src="" alt="中华老字号"></a></li>
+                    <li><a href=""><img src="" alt="原产地"></a></li>
+                    <li><a href=""><img src="" alt="绿色食品"></a></li>
+                    <li><a href=""><img src="" alt="有机产品"></a></li>
+                    <li><a href=""><img src="" alt="有机食品"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="bottom">
+    <div id="bottom_content">
+        <div id="bottom_tmgz">
+            <img id="bottom_tmgz_logo"src="../images/logo.png" alt="logo">
+            <img class="logo_tmgc" src="../images/logo_tmgc.png" alt="透明工场">
+            <ul id="bottom_tmgz_abouts"style="display: none;">
+                <li><a href="">合作伙伴</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">加入我们</a></li>
+            </ul>
+            <div class="bottom_tmgz_abouts">
+                <p>市场合作：sales#topwinapp.com（发邮件时，请将#改为@）</p>
+                <p>加入我们：hr#topwinapp.com（发邮件时，请将#改为@）</p>
+            </div>
+        </div>
+        <div id="connect_us">
+            <a class="bottom_xlwb" href="http://weibo.com/p/1006066033277387/home?from=page_100606&mod=TAB#place"><img src="../images/微博%20(1).png" alt="新浪微博"><span>新浪微博</span></a>
+            <div class="bottom_wx"><img src="../images/微信公众号二维码.png" alt="微信公众号"><br><span>微信公众号</span></div>
+        </div>
+    </div>
+    <div id="bottom_others">
+        <span>北京市东城区新中西里13号巨石大厦6A1</span><span>京ICP备16021774号-3  | © 2016 北京通盈九维科技有限公司 版权所有</span>
+    </div>
+</div>
+<script>
+    var btn_pic=1;
+    $(function () {
+        $('.transparent_show_more').on('click',function () {
+            if (btn_pic){
+                $('.transparent_show_morewords').slideDown(1000);
+                /*$('.transparent_show_more').css('background':"url('../images/Group 9副本.png')",);*/
+                $('.transparent_show_more').css({'background':"url('../images/Group 9副本.png')",'background-size':'100% 100%'});
+                btn_pic=0;
+            }else {
+                $('.transparent_show_morewords').slideUp(1000);
+                $('.transparent_show_more').css({'background':"url('../images/Group 9.png')",'background-size':'100% 100%'});
+                btn_pic=1;
+            }
+        })
+
+        $('.content_top').slideUp();
+    })
+</script>
+</body>
+<script>
+    $('#top_menu').on('click',function () {
+        $('#top_navs').toggle(300);
+    })
+</script>
+</html>
